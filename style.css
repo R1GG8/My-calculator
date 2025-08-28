@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #74ebd5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: aliceblue;
+    padding: 10px;
+    border: 1px solid rgb(190, 187, 187);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px rgb(184, 180, 180);
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.input-div {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 10px;
+    font-size: 35px;
+    background-color: rgb(245, 245, 245);
+    margin-bottom: 15px;
+    width: 100%;
+    height: 65px;
+    border-radius: 5px;
+    border: 1px solid rgb(190, 187, 187);
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    padding: 20px;
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#mult {
+    padding-bottom: 5px;
+}
+
+.digit {
+    background-color: #1E90FF;
+    color: white;
+    /* border-color: #1E90FF; */
+}
+
+.digit:hover {
+    background-color: #1770c9;
+}
+
+button:active {
+    box-shadow: 0px 0px 10px 1px rgb(184, 180, 180);
+}
+
+.signs {
+    color: white;
+    background-color:#27c427;
+}
+
+.signs:hover {
+    background-color:#1e9a1e;
+}
+
+#cletter {
+    background-color: orange;
+}
+
+#cletter:hover {
+    background-color: rgb(193, 126, 2);
+}
+
+#equal {
+    color: white;
+    background-color: rgb(240, 35, 35);
+}
+
+#equal:hover {
+    background-color: rgb(192, 28, 28);
+}
+#buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 8px;
+}
